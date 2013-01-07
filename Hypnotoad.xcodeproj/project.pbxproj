@@ -18,6 +18,16 @@
 		AD58CE19169AF2BA0047674B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD58CE18169AF2BA0047674B /* Default-568h@2x.png */; };
 		AD58CE1C169AF2BA0047674B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD58CE1B169AF2BA0047674B /* ViewController.m */; };
 		AD58CE1F169AF2BA0047674B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD58CE1D169AF2BA0047674B /* ViewController.xib */; };
+		AD58CE2C169AF8650047674B /* toad-0.png in Resources */ = {isa = PBXBuildFile; fileRef = AD58CE26169AF8650047674B /* toad-0.png */; };
+		AD58CE2D169AF8650047674B /* toad-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AD58CE27169AF8650047674B /* toad-1.png */; };
+		AD58CE2E169AF8650047674B /* toad-2.png in Resources */ = {isa = PBXBuildFile; fileRef = AD58CE28169AF8650047674B /* toad-2.png */; };
+		AD58CE2F169AF8650047674B /* toad-3.png in Resources */ = {isa = PBXBuildFile; fileRef = AD58CE29169AF8650047674B /* toad-3.png */; };
+		AD58CE30169AF8650047674B /* toad-4.png in Resources */ = {isa = PBXBuildFile; fileRef = AD58CE2A169AF8650047674B /* toad-4.png */; };
+		AD58CE31169AF8650047674B /* toad-5.png in Resources */ = {isa = PBXBuildFile; fileRef = AD58CE2B169AF8650047674B /* toad-5.png */; };
+		AD58CE35169AFA390047674B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD58CE34169AFA390047674B /* AVFoundation.framework */; };
+		AD58CE39169AFF680047674B /* hypno.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD58CE38169AFECB0047674B /* hypno.m4a */; };
+		AD58CE3B169B04EF0047674B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD58CE3A169B04EF0047674B /* Icon.png */; };
+		AD58CE3D169B05300047674B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD58CE3C169B05300047674B /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,16 @@
 		AD58CE1A169AF2BA0047674B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AD58CE1B169AF2BA0047674B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AD58CE1E169AF2BA0047674B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AD58CE26169AF8650047674B /* toad-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toad-0.png"; sourceTree = "<group>"; };
+		AD58CE27169AF8650047674B /* toad-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toad-1.png"; sourceTree = "<group>"; };
+		AD58CE28169AF8650047674B /* toad-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toad-2.png"; sourceTree = "<group>"; };
+		AD58CE29169AF8650047674B /* toad-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toad-3.png"; sourceTree = "<group>"; };
+		AD58CE2A169AF8650047674B /* toad-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toad-4.png"; sourceTree = "<group>"; };
+		AD58CE2B169AF8650047674B /* toad-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toad-5.png"; sourceTree = "<group>"; };
+		AD58CE34169AFA390047674B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AD58CE38169AFECB0047674B /* hypno.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hypno.m4a; sourceTree = "<group>"; };
+		AD58CE3A169B04EF0047674B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		AD58CE3C169B05300047674B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD58CE35169AFA390047674B /* AVFoundation.framework in Frameworks */,
 				AD58CE03169AF2BA0047674B /* UIKit.framework in Frameworks */,
 				AD58CE05169AF2BA0047674B /* Foundation.framework in Frameworks */,
 				AD58CE07169AF2BA0047674B /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +77,8 @@
 		AD58CDF3169AF2BA0047674B = {
 			isa = PBXGroup;
 			children = (
+				AD58CE3E169B059F0047674B /* Icons */,
+				AD58CE25169AF2EE0047674B /* Resources */,
 				AD58CE08169AF2BA0047674B /* Hypnotoad */,
 				AD58CE01169AF2BA0047674B /* Frameworks */,
 				AD58CDFF169AF2BA0047674B /* Products */,
@@ -73,6 +96,7 @@
 		AD58CE01169AF2BA0047674B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AD58CE34169AFA390047674B /* AVFoundation.framework */,
 				AD58CE02169AF2BA0047674B /* UIKit.framework */,
 				AD58CE04169AF2BA0047674B /* Foundation.framework */,
 				AD58CE06169AF2BA0047674B /* CoreGraphics.framework */,
@@ -105,6 +129,29 @@
 				AD58CE18169AF2BA0047674B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD58CE25169AF2EE0047674B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD58CE38169AFECB0047674B /* hypno.m4a */,
+				AD58CE26169AF8650047674B /* toad-0.png */,
+				AD58CE27169AF8650047674B /* toad-1.png */,
+				AD58CE28169AF8650047674B /* toad-2.png */,
+				AD58CE29169AF8650047674B /* toad-3.png */,
+				AD58CE2A169AF8650047674B /* toad-4.png */,
+				AD58CE2B169AF8650047674B /* toad-5.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AD58CE3E169B059F0047674B /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				AD58CE3C169B05300047674B /* Icon@2x.png */,
+				AD58CE3A169B04EF0047674B /* Icon.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +210,15 @@
 				AD58CE17169AF2BA0047674B /* Default@2x.png in Resources */,
 				AD58CE19169AF2BA0047674B /* Default-568h@2x.png in Resources */,
 				AD58CE1F169AF2BA0047674B /* ViewController.xib in Resources */,
+				AD58CE39169AFF680047674B /* hypno.m4a in Resources */,
+				AD58CE2C169AF8650047674B /* toad-0.png in Resources */,
+				AD58CE2D169AF8650047674B /* toad-1.png in Resources */,
+				AD58CE2E169AF8650047674B /* toad-2.png in Resources */,
+				AD58CE2F169AF8650047674B /* toad-3.png in Resources */,
+				AD58CE30169AF8650047674B /* toad-4.png in Resources */,
+				AD58CE31169AF8650047674B /* toad-5.png in Resources */,
+				AD58CE3B169B04EF0047674B /* Icon.png in Resources */,
+				AD58CE3D169B05300047674B /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
